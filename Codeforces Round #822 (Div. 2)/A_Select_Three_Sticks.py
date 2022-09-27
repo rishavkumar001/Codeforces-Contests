@@ -14,4 +14,5 @@ for _ in range(int(input())):
         x=abs(a[i]-a[i+1])
         x+=abs(a[i+1]-a[i+2])
         t=min(t,x)
+        c=0
     print(t)
